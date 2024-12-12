@@ -1,12 +1,10 @@
+import ThorImage from './images/thor.png';
 import React from 'react';
 import './style.css';
-import ThorImage from './images/thor.png';
 
 class App extends React.Component {
-
 	constructor( props ) {
 		super( props );
-
 		this.state = {
 			name: ''
 		}
@@ -19,7 +17,7 @@ class App extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <h1>This is my Component</h1>
+                <h1>Welcome</h1>
                 <button onClick={this.handleButtonClickEvent}>Click Me</button>
                 { this.state.name && <p>{this.state.name}</p> }
 
