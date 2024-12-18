@@ -2,10 +2,13 @@ import ThorImage from './images/thor.png';
 import React from 'react';
 import './style.css';
 
-class App extends React.Component {
-	constructor( props ) {
+class App extends React.Component 
+{
+	constructor( props ) 
+	{
 		super( props );
-		this.state = {
+		this.state = 
+		{
 			name: ''
 		}
 	}
@@ -14,7 +17,8 @@ class App extends React.Component {
 		this.setState( { name: 'Imran' } );
 	};
 
-    render() {
+    render() 
+    {
         return (
             <React.Fragment>
                 <h1>Welcome</h1>
